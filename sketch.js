@@ -52,7 +52,7 @@ function setup() {
   ground.addImage("ground",gI);
   ground.scale = 0.9;
  
-  so = createSprite(displayWidth/2 + 800,displayHeight/2 - 380);
+  so = createSprite(displayWidth/2 + 500,displayHeight/2 - 300);
   so.addImage(sun);    
   so.scale = 0.3;
   
@@ -86,9 +86,9 @@ function draw() {
   background(back);
   //displaying score     
   textSize(20);
-  text("'USE SPACE BAR TO JUMP'", displayWidth/2 - 900,displayHeight/2 - 510);
+  text("'USE SPACE BAR TO JUMP'", displayWidth/2 - 700,displayHeight/2 -250);
   textSize(25);
-  text("Score: "+ score, displayWidth/2 - 900,displayHeight/2 - 480);
+  text("Score: "+ score, displayWidth/2 - 700,displayHeight/2 - 280);
   
   trex.depth = ground.depth;
   trex.depth = ground.depth + 1;
